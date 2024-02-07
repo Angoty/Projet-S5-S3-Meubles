@@ -1,29 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>MaterielController</servlet-name>
-        <servlet-class>controllers.servlet.MaterielController</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>StyleController</servlet-name>
-        <servlet-class>controllers.servlet.StyleController</servlet-class>
+        <servlet-name>InsertMaterielController</servlet-name>
+        <servlet-class>Controllers.InsertMaterielController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListMaterielController</servlet-name>
-        <servlet-class>controllers.servlet.ListMaterielController</servlet-class>
+        <servlet-class>Controllers.ListMaterielController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>InsertStyleController</servlet-name>
+        <servlet-class>Controllers.InsertStyleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetMaterielController</servlet-name>
+        <servlet-class>Controllers.GetMaterielController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertMeubleController</servlet-name>
+        <servlet-class>Controllers.InsertMeubleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetStyleController</servlet-name>
+        <servlet-class>Controllers.GetStyleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertVolumeController</servlet-name>
+        <servlet-class>Controllers.InsertVolumeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetMeubleController</servlet-name>
+        <servlet-class>Controllers.GetMeubleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetListMaterielController</servlet-name>
+        <servlet-class>Controllers.GetListMaterielController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertMaterielQteController</servlet-name>
+        <servlet-class>Controllers.InsertMaterielQteController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetMaterialSearchController</servlet-name>
+        <servlet-class>Controllers.GetMaterialSearchController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListMeubleController</servlet-name>
+        <servlet-class>Controllers.ListMeubleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FilterMeubleController</servlet-name>
+        <servlet-class>Controllers.FilterMeubleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertStockController</servlet-name>
+        <servlet-class>Controllers.InsertStockController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConstructMeubleController</servlet-name>
+        <servlet-class>Controllers.ConstructMeubleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetStockController</servlet-name>
+        <servlet-class>Controllers.GetStockController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertWorkerController</servlet-name>
+        <servlet-class>Controllers.InsertWorkerController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertMeubleWorkerController</servlet-name>
+        <servlet-class>Controllers.InsertMeubleWorkerController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertMeublePrixController</servlet-name>
+        <servlet-class>Controllers.InsertMeublePrixController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FilterMeublePrixBenefice</servlet-name>
+        <servlet-class>Controllers.FilterMeublePrixBenefice</servlet-class>
+    </servlet>
+      <servlet>
+        <servlet-name>InsertPosteController</servlet-name>
+        <servlet-class>Controllers.InsertPosteController</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>InsertPersonController</servlet-name>
+        <servlet-class>Controllers.InsertPersonController</servlet-class>
+    </servlet>
+
+     <servlet>
+        <servlet-name>SituationPersonController</servlet-name>
+        <servlet-class>Controllers.SituationPersonController</servlet-class>
+    </servlet>
+
+     <servlet>
+        <servlet-name>DelaiExperienceController</servlet-name>
+        <servlet-class>Controllers.DelaiExperienceController</servlet-class>
+    </servlet>
+
+    
+     <servlet>
+        <servlet-name>PosteSalaryController</servlet-name>
+        <servlet-class>Controllers.PosteSalaryController</servlet-class>
+    </servlet>
+
+     <servlet>
+        <servlet-name>InsertClientController</servlet-name>
+        <servlet-class>Controllers.InsertClientController</servlet-class>
+    </servlet>
+
+
+     <servlet>
+        <servlet-name>BuyMeubleController</servlet-name>
+        <servlet-class>Controllers.BuyMeubleController</servlet-class>
+    </servlet>
+
+       <servlet>
+        <servlet-name>TableauStatController</servlet-name>
+        <servlet-class>Controllers.TableauStatController</servlet-class>
+    </servlet>
+
+
+
     <servlet-mapping>
-        <servlet-name>MaterielController</servlet-name>
-        <url-pattern>/MaterielController</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>StyleController</servlet-name>
-        <url-pattern>/StyleController</url-pattern>
+        <servlet-name>InsertMaterielController</servlet-name>
+        <url-pattern>/InsertMaterielController</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ListMaterielController</servlet-name>
         <url-pattern>/ListMaterielController</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertStyleController</servlet-name>
+        <url-pattern>/InsertStyleController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetMaterielController</servlet-name>
+        <url-pattern>/GetMaterielController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertMeubleController</servlet-name>
+        <url-pattern>/InsertMeubleController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetStyleController</servlet-name>
+        <url-pattern>/GetStyleController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertVolumeController</servlet-name>
+        <url-pattern>/InsertVolumeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetMeubleController</servlet-name>
+        <url-pattern>/GetMeubleController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetListMaterielController</servlet-name>
+        <url-pattern>/GetListMaterielController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertMaterielQteController</servlet-name>
+        <url-pattern>/InsertMaterielQteController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetMaterialSearchController</servlet-name>
+        <url-pattern>/GetMaterialSearchController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListMeubleController</servlet-name>
+        <url-pattern>/ListMeubleController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FilterMeubleController</servlet-name>
+        <url-pattern>/FilterMeubleController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertStockController</servlet-name>
+        <url-pattern>/InsertStockController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConstructMeubleController</servlet-name>
+        <url-pattern>/ConstructMeubleController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetStockController</servlet-name>
+        <url-pattern>/GetStockController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertWorkerController</servlet-name>
+        <url-pattern>/InsertWorkerController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertMeubleWorkerController</servlet-name>
+        <url-pattern>/InsertMeubleWorkerController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertMeublePrixController</servlet-name>
+        <url-pattern>/InsertMeublePrixController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FilterMeublePrixBenefice</servlet-name>
+        <url-pattern>/FilterMeublePrixBenefice</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>InsertPosteController</servlet-name>
+        <url-pattern>/InsertPosteController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertPersonController</servlet-name>
+        <url-pattern>/InsertPersonController</url-pattern>
+    </servlet-mapping>
+
+     <servlet-mapping>
+        <servlet-name>SituationPersonController</servlet-name>
+        <url-pattern>/SituationPersonController</url-pattern>
+    </servlet-mapping>
+
+     <servlet-mapping>
+        <servlet-name>DelaiExperienceController</servlet-name>
+        <url-pattern>/DelaiExperienceController</url-pattern>
+    </servlet-mapping>
+    
+
+      <servlet-mapping>
+        <servlet-name>PosteSalaryController</servlet-name>
+        <url-pattern>/PosteSalaryController</url-pattern>
+    </servlet-mapping>
+
+        <servlet-mapping>
+        <servlet-name>InsertClientController</servlet-name>
+        <url-pattern>/InsertClientController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuyMeubleController</servlet-name>
+        <url-pattern>/BuyMeubleController</url-pattern>
+    </servlet-mapping>
+
+     <servlet-mapping>
+        <servlet-name>TableauStatController
+</servlet-name>
+        <url-pattern>/TableauStatController
+</url-pattern>
+    </servlet-mapping>
+
     <session-config>
         <session-timeout>
             30

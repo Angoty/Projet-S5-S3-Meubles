@@ -1,0 +1,51 @@
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+label {
+    font-weight:700;
+    margin-left: 40px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-left: 315px;
+    width: 150px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    
+
+}
+.form{
+    height: 500px;
+    width: 500px;
+    border-radius: 1px;
+    margin-left: 350px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow:  2px 2px rgb(184, 181, 181);
+}
